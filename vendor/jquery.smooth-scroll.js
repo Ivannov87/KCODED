@@ -1,6 +1,6 @@
 // SmoothScroll for websites v1.2.1
 // Licensed under the terms of the MIT license.
-// https://gist.github.com/galambalazs/6477177/
+
 
 // People involved
 //  - Balazs Galambosi (maintainer)  
@@ -491,7 +491,7 @@ var requestFrame = (function () {
  * Viscous fluid with a pulse for part and decay for the rest.
  * - Applies a fixed force over an interval (a damped acceleration), and
  * - Lets the exponential bleed away the velocity over a longer interval
- * - Michael Herf, http://stereopsis.com/stopping/
+
  */
 function pulse_(x) {
     var val, start, expx;
