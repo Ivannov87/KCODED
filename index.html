@@ -7,9 +7,10 @@
     <title>KCodeD</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Kcoded SEO, Desarrollo de software, eCommerce,e-commerce, Web Design, Diseño Web, Pagos Paypal" name="Home" />
+    <meta content="Kcoded SEO, Desarrollo de software, eCommerce,e-commerce, Web Design, Diseño Web, Pagos Paypal"
+        name="Home" />
     <meta content="Sitio Web de Kcoded " name="Kcoded  " />
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="css/googleapis.css" rel="stylesheet" type="text/css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -17,11 +18,12 @@
     <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css" />
     <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
+
 </head>
 
 
 <body id="body" data-spy="scroll" data-target=".header">
-
+   
     <header class="header navbar-fixed-top">
         <nav class="navbar" role="navigation">
             <div class="container">
@@ -30,14 +32,9 @@
                         <span class="sr-only">Toggle navigation</span>
                         <span class="toggle-icon"></span>
                     </button>
-
-
                 </div>
 
                 <div class="collapse navbar-collapse nav-collapse">
-
-
-
                     <div class="menu-container">
                         <ul class="nav navbar-nav navbar-nav-right">
                             <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover"
@@ -66,11 +63,12 @@
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
         </div>
 
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
+            <div class="item ">
                 <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
                 <div class="container">
                     <div class="carousel-centered">
@@ -587,7 +585,7 @@
                                 <h3>Licensing Authority</h3>
                                 <p class="margin-b-5">Provedoor de servicios de verificación de licencias.</p>
                             </div>
-                            <a href="#" class="content-wrapper-link"></a>
+                            <a href="#services" class="content-wrapper-link"></a>
                         </div>
                     </div>
                     <div class="col-sm-4 sm-margin-b-2">
@@ -600,7 +598,7 @@
                                 <p class="color-white margin-b-5">Proveedor de servicios de testing para aplicaciones
                                     moviles,websites o servicios web.</p>
                             </div>
-                            <a href="#" class="content-wrapper-link"></a>
+                            <a class="content-wrapper-link" data-toggle="modal" data-target="#modaltest"></a>
                         </div>
                     </div>
 
@@ -699,7 +697,7 @@
                                 <h3>Apploo</h3>
                                 <p class="margin-b-5">Plataforma de gestion de licencias</p>
                             </div>
-                            <a href="#" class="content-wrapper-link"></a>
+                            <a class="content-wrapper-link" data-toggle="modal" data-target="#modalapp"></a>
                         </div>
                     </div>
                     <!-- <div class="col-sm-4 sm-margin-b-2"> -->
@@ -899,6 +897,162 @@
         <!-- End Copyright -->
     </footer>
     <!--========== END FOOTER ==========-->
+
+
+
+
+    <!--========== END MODALS ==========-->
+
+
+    <div class="modal fade" id="modalapp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-header"></div>
+                            <div class="card-body">
+                                <div class="service">
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&#88;</span>
+                                    </a>
+                                    <div class="service-element">
+                                        <i class="service-icon  icon-screen-tablet	"></i>
+                                    </div>
+                                    <h2 class="h2-responsive product-name">
+                                        <strong>Apploo</strong>
+                                    </h2>
+                                    <div class="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headinApploo">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed panel-title-child" role="button"
+                                                        data-toggle="collapse" data-parent="#accordion" href="#clpApplo"
+                                                        aria-expanded="false" aria-controls="clpApplo">
+                                                        Gestión de licencias
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="clpApplo" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headinApploo">
+                                                <div class="panel-default">
+                                                    <div class="panel-body">
+                                                        Es una plataforma que permite el registro, implementación,
+                                                        documentación y monitoreo de licencias de software,
+                                                        esto permite que se tenga control sobre el software en el que se
+                                                        aplique, garantizando la vigencia por la cuál
+                                                        fue creada. para saber más <a href="#contact"
+                                                            class="color-white"><strong>Contactanos</strong></a>.
+                                                    </div>
+                                                    <div class="panel-footer">
+                                                       
+                                                        <img src="img/license1.jpg" height="50%" width="480px">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="card-footer">
+                            <div class="text-center">
+
+                                <button type="button" class="btn bg-color-base color-white"
+                                    data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="modaltest" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="card">
+                            <div class="card-header"></div>
+                            <div class="card-body">
+                                <div class="service">
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&#88;</span>
+                                    </a>
+                                    <div class="service-element">
+                                        <i class="service-icon  icon-screen-tablet	"></i>
+                                    </div>
+                                    <h2 class="h2-responsive product-name">
+                                        <strong>Testing Unit</strong>
+                                    </h2>
+                                    <div class="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingTest">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed panel-title-child" role="button"
+                                                        data-toggle="collapse" data-parent="#accordion" href="#clpTest"
+                                                        aria-expanded="false" aria-controls="clpTest">
+                                                        Unidad de pruebas tecnológicas
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="clpTest" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingTest">
+                                                <div class="panel-body">
+                                                    Si requieres hacer pruebas exhaustivas de algúna página web o
+                                                    work flow tecnológico, disponemos el equipo más sofisticado para
+                                                    realizar estas actividades, fue creada con el motivo de ayudar a
+                                                    nuestros clientes validar mejor y más rapido sus productos
+                                                    tecnológicos.
+                                                    Para saber más <a href="#contact"
+                                                        class="color-white"><strong>Contactanos</strong></a>.
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <img src="img/testing1.jpg" height="50%" width="480px">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card-footer">
+                                <div class="text-center">
+
+                                    <button type="button" class="btn bg-color-base color-white"
+                                        data-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--========== END MODALS ==========-->
 
     <!-- Back To Top -->
     <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
